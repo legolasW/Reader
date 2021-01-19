@@ -13,15 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         List(data.articles) { article in
-            VStack(alignment: .leading) {
-                Text(article.title)
-                    .font(.title3)
-                    .bold()
-                    .padding(.bottom, 3)
-                Text(article.body)
-                    .lineLimit(3)
-            }
-            .padding(.vertical)
+            Row(article: article)
         }
     }
 }

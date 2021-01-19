@@ -11,6 +11,8 @@
 		A049A5A325AFF75A007C77A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5A225AFF75A007C77A2 /* ContentView.swift */; };
 		A049A5A525AFF75B007C77A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A049A5A425AFF75B007C77A2 /* Assets.xcassets */; };
 		A049A5A825AFF75B007C77A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A049A5A725AFF75B007C77A2 /* Preview Assets.xcassets */; };
+		A049A5B125B002DB007C77A2 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5B025B002DB007C77A2 /* Row.swift */; };
+		A049A5B425B01B87007C77A2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5B325B01B87007C77A2 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A049A5A425AFF75B007C77A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A049A5A725AFF75B007C77A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A049A5A925AFF75B007C77A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A049A5B025B002DB007C77A2 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		A049A5B325B01B87007C77A2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				A049A5A025AFF75A007C77A2 /* ReaderApp.swift */,
 				A049A5A225AFF75A007C77A2 /* ContentView.swift */,
+				A049A5B025B002DB007C77A2 /* Row.swift */,
+				A049A5B325B01B87007C77A2 /* Data.swift */,
 				A049A5A425AFF75B007C77A2 /* Assets.xcassets */,
 				A049A5A925AFF75B007C77A2 /* Info.plist */,
 				A049A5A625AFF75B007C77A2 /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A049A5A325AFF75A007C77A2 /* ContentView.swift in Sources */,
+				A049A5B125B002DB007C77A2 /* Row.swift in Sources */,
 				A049A5A125AFF75A007C77A2 /* ReaderApp.swift in Sources */,
+				A049A5B425B01B87007C77A2 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

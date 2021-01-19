@@ -11,7 +11,7 @@ import SwiftUI
 struct ReaderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Master()
         }
     }
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// Model
+// MARK: - Model
 struct Article: Codable, Identifiable {
     var id: Int
     var title: String
@@ -15,7 +15,7 @@ struct Article: Codable, Identifiable {
 }
 
 
-// ViewModel
+// MARK: - ViewModel
 class Data: ObservableObject {
     @Published var articles = [Article]()
     

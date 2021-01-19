@@ -7,9 +7,22 @@
 
 import SwiftUI
 
+// MARK: - View
 struct ContentView: View {
+    @StateObject var data = Data()
+    
     var body: some View {
-        Row()
+        List(data.articles) { article in
+            VStack(alignment: .leading) {
+                Text(article.title)
+                    .font(.title3)
+                    .bold()
+                    .padding(.bottom, 3)
+                Text(article.body)
+                    .lineLimit(3)
+            }
+            .padding(.vertical)
+        }
     }
 }
 

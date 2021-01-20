@@ -11,7 +11,13 @@ struct Detail: View {
     var article: Article
     
     var body: some View {
-        Text(article.body)
+        ScrollView {
+            VStack(alignment: .leading) {
+                Text(article.body)
+            }
+            .padding()
+        }
+        .navigationTitle(article.title)
     }
 }
 

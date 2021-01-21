@@ -12,6 +12,7 @@ struct Setting: View {
     
     var body: some View {
         Button(action: {
+            Vibration.selection.vibrate()
             darkMode.toggle()
         }) {
             Image(systemName: darkMode ? "sun.max.fill": "moon.fill" )

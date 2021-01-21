@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A014602B25B93DC8005BA071 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A014602A25B93DC8005BA071 /* Setting.swift */; };
+		A014602E25B94953005BA071 /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A014602D25B94953005BA071 /* Vibration.swift */; };
 		A02B64FD25B79D2500686928 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B64FC25B79D2500686928 /* Detail.swift */; };
 		A049A5A125AFF75A007C77A2 /* ReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5A025AFF75A007C77A2 /* ReaderApp.swift */; };
 		A049A5A325AFF75A007C77A2 /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5A225AFF75A007C77A2 /* Master.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		A014602A25B93DC8005BA071 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		A014602D25B94953005BA071 /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
 		A02B64FC25B79D2500686928 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		A049A59D25AFF75A007C77A2 /* Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A049A5A025AFF75A007C77A2 /* ReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderApp.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				A049A5B025B002DB007C77A2 /* Row.swift */,
 				A014602A25B93DC8005BA071 /* Setting.swift */,
 				A049A5B325B01B87007C77A2 /* Data.swift */,
+				A014602D25B94953005BA071 /* Vibration.swift */,
 				A049A5A425AFF75B007C77A2 /* Assets.xcassets */,
 				A049A5A925AFF75B007C77A2 /* Info.plist */,
 				A049A5A625AFF75B007C77A2 /* Preview Content */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A014602E25B94953005BA071 /* Vibration.swift in Sources */,
 				A049A5A325AFF75A007C77A2 /* Master.swift in Sources */,
 				A02B64FD25B79D2500686928 /* Detail.swift in Sources */,
 				A014602B25B93DC8005BA071 /* Setting.swift in Sources */,

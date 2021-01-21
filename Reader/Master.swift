@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-// MARK: - View
 struct Master: View {
     @StateObject var data = Data()
     @AppStorage("darkMode") var darkMode = false
@@ -21,12 +20,7 @@ struct Master: View {
             }
             .navigationTitle("编辑推荐")
             .toolbar {
-                Button(action: {
-                    darkMode.toggle()
-                }) {
-                    Image(systemName: darkMode ? "sun.max.fill": "moon.fill" )
-                        .font(.system(.headline, design: .rounded))
-                }
+                Setting(darkMode: $darkMode)
             }
         }
         .preferredColorScheme(darkMode ? .dark : .light)
@@ -38,3 +32,4 @@ struct ContentView_Previews: PreviewProvider {
         Master()
     }
 }
+

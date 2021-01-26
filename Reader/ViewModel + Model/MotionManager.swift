@@ -24,9 +24,5 @@ class MotionManager: ObservableObject {
             self.z = CGFloat(tilt.z)
         }
     }
-    
-    func stop() {
-        motionManager.stopDeviceMotionUpdates()
-    }
 }
 

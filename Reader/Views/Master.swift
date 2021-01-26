@@ -27,7 +27,7 @@ struct Master: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Master_Previews: PreviewProvider {
     static var previews: some View {
         Master()
     }

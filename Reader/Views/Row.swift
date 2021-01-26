@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Row: View {
     var article: Article
+    @EnvironmentObject var motion: MotionManager
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -16,8 +17,10 @@ struct Row: View {
                 .font(.title3)
                 .bold()
                 .padding(.bottom, 3)
+                .scaleEffect(max(1, -motion.y * 1.2))
             Text(article.body)
                 .lineLimit(3)
+                .scaleEffect(max(1, -motion.y * 1.05))
         }
         .padding(.vertical)
     }

@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ReaderApp: App {
+    let motionManager = MotionManager()
+    
     var body: some Scene {
         WindowGroup {
             Master()
+                .environmentObject(motionManager)
         }
     }
 }

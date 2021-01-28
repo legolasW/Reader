@@ -17,6 +17,7 @@
 		A049A5A825AFF75B007C77A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A049A5A725AFF75B007C77A2 /* Preview Assets.xcassets */; };
 		A049A5B125B002DB007C77A2 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5B025B002DB007C77A2 /* Row.swift */; };
 		A049A5B425B01B87007C77A2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5B325B01B87007C77A2 /* Data.swift */; };
+		A062543525C18950005A60FC /* Locked.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062543425C18950005A60FC /* Locked.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A049A5A925AFF75B007C77A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A049A5B025B002DB007C77A2 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
 		A049A5B325B01B87007C77A2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A062543425C18950005A60FC /* Locked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locked.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				A049A5A025AFF75A007C77A2 /* ReaderApp.swift */,
 				A049A5A225AFF75A007C77A2 /* Master.swift */,
 				A02B64FC25B79D2500686928 /* Detail.swift */,
+				A062543425C18950005A60FC /* Locked.swift */,
 				A049A5B025B002DB007C77A2 /* Row.swift */,
 				A014602A25B93DC8005BA071 /* Setting.swift */,
 			);
@@ -182,6 +185,7 @@
 			files = (
 				A014602E25B94953005BA071 /* Vibration.swift in Sources */,
 				A049A5A325AFF75A007C77A2 /* Master.swift in Sources */,
+				A062543525C18950005A60FC /* Locked.swift in Sources */,
 				A02B64FD25B79D2500686928 /* Detail.swift in Sources */,
 				A014602B25B93DC8005BA071 /* Setting.swift in Sources */,
 				A049A5B125B002DB007C77A2 /* Row.swift in Sources */,

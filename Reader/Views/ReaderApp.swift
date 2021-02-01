@@ -11,7 +11,7 @@ import LocalAuthentication
 @main
 struct ReaderApp: App {
     let motionManager = MotionManager()
-    @State var locked = false // 关闭 Face ID 以方便测试
+    @State var locked = true
     
     var body: some Scene {
         WindowGroup {

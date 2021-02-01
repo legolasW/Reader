@@ -16,6 +16,7 @@ struct Article: Codable, Identifiable {
 
 
 // MARK: - ViewModel
+// Rename
 class Data: ObservableObject {
     @Published var articles = [Article]()
     

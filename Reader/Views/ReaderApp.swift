@@ -11,7 +11,7 @@ import LocalAuthentication
 @main
 struct ReaderApp: App {
     let motionManager = MotionManager()
-    @State var locked = true
+    @State var locked = false // 关闭 Face ID 以方便测试
     
     var body: some Scene {
         WindowGroup {
@@ -19,8 +19,18 @@ struct ReaderApp: App {
                 if locked {
                     Locked(authorize: authorize)
                 } else {
-                    Master()
-                        .environmentObject(motionManager)
+                    TabView {
+                        Master()
+                            .environmentObject(motionManager)
+                            .tabItem {
+                                Label("阅读列表", systemImage: "books.vertical")
+                            }
+                        ReadingNote()
+                            .tabItem {
+                                Label("笔记", systemImage: "note.text")
+                            }
+                    }
+
                 }
             }
             .onAppear { authorize() }

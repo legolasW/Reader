@@ -13,7 +13,9 @@ struct ReadingNote: View {
     
     var body: some View {
         NavigationView {
-            ScrollView {
+            VStack {
+                Spacer()
+                    .frame(height: 20)
                 HStack {
                     Link(destination: URL(string: "https://legolas.me")!) {
                         RoundButton(text: "在 Safari 打开", image: "safari")
@@ -36,7 +38,8 @@ struct ReadingNote: View {
                         .preferredControlAccentColor(.orange)
                         .dismissButtonStyle(.close)
                     }
-                }
+                } // 浏览器跳转
+                NoteEntryAndList()
             }
             .navigationTitle("笔记")
         }

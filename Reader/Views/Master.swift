@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Master: View {
-    @StateObject var data = Data()
+    @StateObject var data = TabReadingData()
     @AppStorage("darkMode") var darkMode = false
     
     var body: some View {

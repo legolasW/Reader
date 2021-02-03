@@ -1,5 +1,5 @@
 //
-//  Data.swift
+//  TabReadingData.swift
 //  Reader
 //
 //  Created by Legolas on 2021-01-13.
@@ -16,8 +16,7 @@ struct Article: Codable, Identifiable {
 
 
 // MARK: - ViewModel
-// Rename
-class Data: ObservableObject {
+class TabReadingData: ObservableObject {
     @Published var articles = [Article]()
     
     init() {

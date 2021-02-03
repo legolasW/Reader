@@ -10,6 +10,8 @@
 		A002112725C8877600B519CC /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002112625C8877600B519CC /* RoundButton.swift */; };
 		A002112B25C89C8600B519CC /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = A002112A25C89C8600B519CC /* BetterSafariView */; };
 		A003DF4525C0697F001DFAFE /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A003DF4425C0697F001DFAFE /* MotionManager.swift */; };
+		A005E86F25C93AB800D28BA2 /* TabNoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A005E86E25C93AB800D28BA2 /* TabNoteData.swift */; };
+		A005E87825CA609C00D28BA2 /* NoteEntryAndList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A005E87725CA609C00D28BA2 /* NoteEntryAndList.swift */; };
 		A014602B25B93DC8005BA071 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A014602A25B93DC8005BA071 /* Setting.swift */; };
 		A014602E25B94953005BA071 /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A014602D25B94953005BA071 /* Vibration.swift */; };
 		A02B64FD25B79D2500686928 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B64FC25B79D2500686928 /* Detail.swift */; };
@@ -18,7 +20,7 @@
 		A049A5A525AFF75B007C77A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A049A5A425AFF75B007C77A2 /* Assets.xcassets */; };
 		A049A5A825AFF75B007C77A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A049A5A725AFF75B007C77A2 /* Preview Assets.xcassets */; };
 		A049A5B125B002DB007C77A2 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5B025B002DB007C77A2 /* Row.swift */; };
-		A049A5B425B01B87007C77A2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5B325B01B87007C77A2 /* Data.swift */; };
+		A049A5B425B01B87007C77A2 /* TabReadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5B325B01B87007C77A2 /* TabReadingData.swift */; };
 		A062543525C18950005A60FC /* Locked.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062543425C18950005A60FC /* Locked.swift */; };
 		A081704625C86BBF00EFC69D /* ReadingNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081704525C86BBF00EFC69D /* ReadingNote.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		A002112625C8877600B519CC /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		A003DF4425C0697F001DFAFE /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		A005E86E25C93AB800D28BA2 /* TabNoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNoteData.swift; sourceTree = "<group>"; };
+		A005E87725CA609C00D28BA2 /* NoteEntryAndList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEntryAndList.swift; sourceTree = "<group>"; };
 		A014602A25B93DC8005BA071 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		A014602D25B94953005BA071 /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
 		A02B64FC25B79D2500686928 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
@@ -36,7 +40,7 @@
 		A049A5A725AFF75B007C77A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A049A5A925AFF75B007C77A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A049A5B025B002DB007C77A2 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
-		A049A5B325B01B87007C77A2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A049A5B325B01B87007C77A2 /* TabReadingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabReadingData.swift; sourceTree = "<group>"; };
 		A062543425C18950005A60FC /* Locked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locked.swift; sourceTree = "<group>"; };
 		A081704525C86BBF00EFC69D /* ReadingNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingNote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +65,7 @@
 				A02B64FC25B79D2500686928 /* Detail.swift */,
 				A062543425C18950005A60FC /* Locked.swift */,
 				A081704525C86BBF00EFC69D /* ReadingNote.swift */,
+				A005E87725CA609C00D28BA2 /* NoteEntryAndList.swift */,
 				A002112625C8877600B519CC /* RoundButton.swift */,
 				A049A5B025B002DB007C77A2 /* Row.swift */,
 				A014602A25B93DC8005BA071 /* Setting.swift */,
@@ -72,7 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				A003DF4425C0697F001DFAFE /* MotionManager.swift */,
-				A049A5B325B01B87007C77A2 /* Data.swift */,
+				A049A5B325B01B87007C77A2 /* TabReadingData.swift */,
+				A005E86E25C93AB800D28BA2 /* TabNoteData.swift */,
 			);
 			path = "ViewModel + Model";
 			sourceTree = "<group>";
@@ -204,9 +210,11 @@
 				A002112725C8877600B519CC /* RoundButton.swift in Sources */,
 				A014602B25B93DC8005BA071 /* Setting.swift in Sources */,
 				A049A5B125B002DB007C77A2 /* Row.swift in Sources */,
+				A005E86F25C93AB800D28BA2 /* TabNoteData.swift in Sources */,
 				A081704625C86BBF00EFC69D /* ReadingNote.swift in Sources */,
 				A049A5A125AFF75A007C77A2 /* ReaderApp.swift in Sources */,
-				A049A5B425B01B87007C77A2 /* Data.swift in Sources */,
+				A049A5B425B01B87007C77A2 /* TabReadingData.swift in Sources */,
+				A005E87825CA609C00D28BA2 /* NoteEntryAndList.swift in Sources */,
 				A003DF4525C0697F001DFAFE /* MotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -29,6 +29,10 @@ struct ReaderApp: App {
                             .tabItem {
                                 Label("笔记", systemImage: "note.text")
                             }
+                        CheckIn()
+                            .tabItem {
+                                Label("签到", systemImage: "mappin.and.ellipse")
+                            }
                     }
 
                 }

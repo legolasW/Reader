@@ -24,6 +24,8 @@
 		A062543525C18950005A60FC /* Locked.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062543425C18950005A60FC /* Locked.swift */; };
 		A06C805325D33B2000CA0C6D /* ImagePickerView in Frameworks */ = {isa = PBXBuildFile; productRef = A06C805225D33B2000CA0C6D /* ImagePickerView */; };
 		A081704625C86BBF00EFC69D /* ReadingNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081704525C86BBF00EFC69D /* ReadingNote.swift */; };
+		A0C0F3BA25E86972002BE9BA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C0F3B925E86972002BE9BA /* LocationManager.swift */; };
+		A0C0F3BD25E871CE002BE9BA /* CheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C0F3BC25E871CE002BE9BA /* CheckIn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		A049A5B325B01B87007C77A2 /* TabReadingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabReadingData.swift; sourceTree = "<group>"; };
 		A062543425C18950005A60FC /* Locked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locked.swift; sourceTree = "<group>"; };
 		A081704525C86BBF00EFC69D /* ReadingNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingNote.swift; sourceTree = "<group>"; };
+		A0C0F3B925E86972002BE9BA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A0C0F3BC25E871CE002BE9BA /* CheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			children = (
 				A049A5A025AFF75A007C77A2 /* ReaderApp.swift */,
 				A049A5A225AFF75A007C77A2 /* Master.swift */,
+				A0C0F3BC25E871CE002BE9BA /* CheckIn.swift */,
 				A02B64FC25B79D2500686928 /* Detail.swift */,
 				A062543425C18950005A60FC /* Locked.swift */,
 				A081704525C86BBF00EFC69D /* ReadingNote.swift */,
@@ -79,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A003DF4425C0697F001DFAFE /* MotionManager.swift */,
+				A0C0F3B925E86972002BE9BA /* LocationManager.swift */,
 				A049A5B325B01B87007C77A2 /* TabReadingData.swift */,
 				A005E86E25C93AB800D28BA2 /* TabNoteData.swift */,
 			);
@@ -208,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A014602E25B94953005BA071 /* Vibration.swift in Sources */,
+				A0C0F3BD25E871CE002BE9BA /* CheckIn.swift in Sources */,
 				A049A5A325AFF75A007C77A2 /* Master.swift in Sources */,
 				A062543525C18950005A60FC /* Locked.swift in Sources */,
 				A02B64FD25B79D2500686928 /* Detail.swift in Sources */,
@@ -217,6 +224,7 @@
 				A005E86F25C93AB800D28BA2 /* TabNoteData.swift in Sources */,
 				A081704625C86BBF00EFC69D /* ReadingNote.swift in Sources */,
 				A049A5A125AFF75A007C77A2 /* ReaderApp.swift in Sources */,
+				A0C0F3BA25E86972002BE9BA /* LocationManager.swift in Sources */,
 				A049A5B425B01B87007C77A2 /* TabReadingData.swift in Sources */,
 				A005E87825CA609C00D28BA2 /* NoteEntryAndList.swift in Sources */,
 				A003DF4525C0697F001DFAFE /* MotionManager.swift in Sources */,

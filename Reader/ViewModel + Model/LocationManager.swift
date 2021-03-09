@@ -19,8 +19,8 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
             longitude: 116.3976
         ),
         span: MKCoordinateSpan(
-            latitudeDelta: 0.1,
-            longitudeDelta: 0.1
+            latitudeDelta: 0.005,
+            longitudeDelta: 0.005
         )
     )
     
@@ -40,10 +40,23 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
                 longitude: location.coordinate.longitude
             ),
             span: MKCoordinateSpan(
-                latitudeDelta: 0.1,
-                longitudeDelta: 0.1
+                latitudeDelta: 0.005,
+                longitudeDelta: 0.005
             )
         )
+    }
+    
+    func lookUpCurrentLocation(location: CLLocation, completionHandler: @escaping (CLPlacemark?)
+                    -> Void ) {
+
+            let geocoder = CLGeocoder()
+            geocoder.reverseGeocodeLocation(location,
+                        completionHandler: { (placemarks, error) in
+                if error == nil {
+                    let firstLocation = placemarks?[0]
+                    completionHandler(firstLocation)
+                }
+            })
     }
 }
 

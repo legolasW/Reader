@@ -19,7 +19,8 @@ class TabNoteData: ObservableObject {
     @Published var notes: [Note] = []
     
     static let sandboxURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-    let notesURL = sandboxURL.appendingPathComponent("notes.json")
+    static let cloudSandboxURL = FileManager.default.url(forUbiquityContainerIdentifier: nil)?.appendingPathComponent("Documents")
+    let notesURL = sandboxURL.appendingPathComponent("notes.json") //  将 sandboxURL 更换为 cloudSandboxURL 即可改为云沙盒
     
     init() {
         notes = getNotes()

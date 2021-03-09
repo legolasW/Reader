@@ -11,6 +11,7 @@ import LocalAuthentication
 @main
 struct ReaderApp: App {
     let motionManager = MotionManager()
+    let CloudDataManager = CloudData.shared
     @State var locked = true
     
     var body: some Scene {
@@ -30,6 +31,7 @@ struct ReaderApp: App {
                                 Label("笔记", systemImage: "note.text")
                             }
                         CheckIn()
+                            .environment(\.managedObjectContext, CloudDataManager.container.viewContext)
                             .tabItem {
                                 Label("签到", systemImage: "mappin.and.ellipse")
                             }

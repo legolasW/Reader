@@ -21,6 +21,10 @@
 		A049A5A825AFF75B007C77A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A049A5A725AFF75B007C77A2 /* Preview Assets.xcassets */; };
 		A049A5B125B002DB007C77A2 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5B025B002DB007C77A2 /* Row.swift */; };
 		A049A5B425B01B87007C77A2 /* TabReadingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5B325B01B87007C77A2 /* TabReadingData.swift */; };
+		A05CD28425EAC4A8004E03A3 /* Reader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A05CD28225EAC4A8004E03A3 /* Reader.xcdatamodeld */; };
+		A05CD28725EACC08004E03A3 /* CloudData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05CD28625EACC08004E03A3 /* CloudData.swift */; };
+		A05CD28E25EAD440004E03A3 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05CD28D25EAD440004E03A3 /* CloudKit.framework */; };
+		A05CD29225EAD96F004E03A3 /* CheckInRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05CD29125EAD96F004E03A3 /* CheckInRow.swift */; };
 		A062543525C18950005A60FC /* Locked.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062543425C18950005A60FC /* Locked.swift */; };
 		A06C805325D33B2000CA0C6D /* ImagePickerView in Frameworks */ = {isa = PBXBuildFile; productRef = A06C805225D33B2000CA0C6D /* ImagePickerView */; };
 		A081704625C86BBF00EFC69D /* ReadingNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081704525C86BBF00EFC69D /* ReadingNote.swift */; };
@@ -44,6 +48,11 @@
 		A049A5A925AFF75B007C77A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A049A5B025B002DB007C77A2 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
 		A049A5B325B01B87007C77A2 /* TabReadingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabReadingData.swift; sourceTree = "<group>"; };
+		A05CD28325EAC4A8004E03A3 /* CheckInModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CheckInModel.xcdatamodel; sourceTree = "<group>"; };
+		A05CD28625EACC08004E03A3 /* CloudData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudData.swift; sourceTree = "<group>"; };
+		A05CD28925EAD356004E03A3 /* Reader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reader.entitlements; sourceTree = "<group>"; };
+		A05CD28D25EAD440004E03A3 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		A05CD29125EAD96F004E03A3 /* CheckInRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInRow.swift; sourceTree = "<group>"; };
 		A062543425C18950005A60FC /* Locked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locked.swift; sourceTree = "<group>"; };
 		A081704525C86BBF00EFC69D /* ReadingNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingNote.swift; sourceTree = "<group>"; };
 		A0C0F3B925E86972002BE9BA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -55,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05CD28E25EAD440004E03A3 /* CloudKit.framework in Frameworks */,
 				A002112B25C89C8600B519CC /* BetterSafariView in Frameworks */,
 				A06C805325D33B2000CA0C6D /* ImagePickerView in Frameworks */,
 			);
@@ -69,6 +79,7 @@
 				A049A5A025AFF75A007C77A2 /* ReaderApp.swift */,
 				A049A5A225AFF75A007C77A2 /* Master.swift */,
 				A0C0F3BC25E871CE002BE9BA /* CheckIn.swift */,
+				A05CD29125EAD96F004E03A3 /* CheckInRow.swift */,
 				A02B64FC25B79D2500686928 /* Detail.swift */,
 				A062543425C18950005A60FC /* Locked.swift */,
 				A081704525C86BBF00EFC69D /* ReadingNote.swift */,
@@ -86,6 +97,8 @@
 				A003DF4425C0697F001DFAFE /* MotionManager.swift */,
 				A0C0F3B925E86972002BE9BA /* LocationManager.swift */,
 				A049A5B325B01B87007C77A2 /* TabReadingData.swift */,
+				A05CD28225EAC4A8004E03A3 /* Reader.xcdatamodeld */,
+				A05CD28625EACC08004E03A3 /* CloudData.swift */,
 				A005E86E25C93AB800D28BA2 /* TabNoteData.swift */,
 			);
 			path = "ViewModel + Model";
@@ -104,6 +117,7 @@
 			children = (
 				A049A59F25AFF75A007C77A2 /* Reader */,
 				A049A59E25AFF75A007C77A2 /* Products */,
+				A05CD28C25EAD440004E03A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +132,7 @@
 		A049A59F25AFF75A007C77A2 /* Reader */ = {
 			isa = PBXGroup;
 			children = (
+				A05CD28925EAD356004E03A3 /* Reader.entitlements */,
 				A003DF4725C08AF3001DFAFE /* Views */,
 				A003DF4925C08B15001DFAFE /* ViewModel + Model */,
 				A003DF4A25C08B31001DFAFE /* Helper */,
@@ -134,6 +149,14 @@
 				A049A5A725AFF75B007C77A2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A05CD28C25EAD440004E03A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A05CD28D25EAD440004E03A3 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,11 +238,14 @@
 			files = (
 				A014602E25B94953005BA071 /* Vibration.swift in Sources */,
 				A0C0F3BD25E871CE002BE9BA /* CheckIn.swift in Sources */,
+				A05CD29225EAD96F004E03A3 /* CheckInRow.swift in Sources */,
 				A049A5A325AFF75A007C77A2 /* Master.swift in Sources */,
 				A062543525C18950005A60FC /* Locked.swift in Sources */,
+				A05CD28725EACC08004E03A3 /* CloudData.swift in Sources */,
 				A02B64FD25B79D2500686928 /* Detail.swift in Sources */,
 				A002112725C8877600B519CC /* RoundButton.swift in Sources */,
 				A014602B25B93DC8005BA071 /* Setting.swift in Sources */,
+				A05CD28425EAC4A8004E03A3 /* Reader.xcdatamodeld in Sources */,
 				A049A5B125B002DB007C77A2 /* Row.swift in Sources */,
 				A005E86F25C93AB800D28BA2 /* TabNoteData.swift in Sources */,
 				A081704625C86BBF00EFC69D /* ReadingNote.swift in Sources */,
@@ -355,7 +381,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Reader/Reader.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Reader/Preview Content\"";
 				DEVELOPMENT_TEAM = 4DENVHJV75;
 				ENABLE_PREVIEWS = YES;
@@ -365,7 +393,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.legolas.Reader;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = me.legolas.ReaderApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -377,7 +406,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Reader/Reader.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Reader/Preview Content\"";
 				DEVELOPMENT_TEAM = 4DENVHJV75;
 				ENABLE_PREVIEWS = YES;
@@ -387,7 +418,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.legolas.Reader;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = me.legolas.ReaderApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +480,19 @@
 			productName = ImagePickerView;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A05CD28225EAC4A8004E03A3 /* Reader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A05CD28325EAC4A8004E03A3 /* CheckInModel.xcdatamodel */,
+			);
+			currentVersion = A05CD28325EAC4A8004E03A3 /* CheckInModel.xcdatamodel */;
+			path = Reader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A049A59525AFF75A007C77A2 /* Project object */;
 }

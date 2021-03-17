@@ -15,6 +15,8 @@
 		A014602B25B93DC8005BA071 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A014602A25B93DC8005BA071 /* Setting.swift */; };
 		A014602E25B94953005BA071 /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A014602D25B94953005BA071 /* Vibration.swift */; };
 		A02B64FD25B79D2500686928 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02B64FC25B79D2500686928 /* Detail.swift */; };
+		A02F78B72601795900338948 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F78B62601795900338948 /* Store.swift */; };
+		A02F78BC2601C9E900338948 /* IAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02F78BB2601C9E900338948 /* IAP.swift */; };
 		A049A5A125AFF75A007C77A2 /* ReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5A025AFF75A007C77A2 /* ReaderApp.swift */; };
 		A049A5A325AFF75A007C77A2 /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = A049A5A225AFF75A007C77A2 /* Master.swift */; };
 		A049A5A525AFF75B007C77A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A049A5A425AFF75B007C77A2 /* Assets.xcassets */; };
@@ -40,6 +42,9 @@
 		A014602A25B93DC8005BA071 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		A014602D25B94953005BA071 /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
 		A02B64FC25B79D2500686928 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		A02F78B62601795900338948 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		A02F78B92601C12900338948 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		A02F78BB2601C9E900338948 /* IAP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAP.swift; sourceTree = "<group>"; };
 		A049A59D25AFF75A007C77A2 /* Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A049A5A025AFF75A007C77A2 /* ReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderApp.swift; sourceTree = "<group>"; };
 		A049A5A225AFF75A007C77A2 /* Master.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Master.swift; sourceTree = "<group>"; };
@@ -79,6 +84,7 @@
 				A049A5A025AFF75A007C77A2 /* ReaderApp.swift */,
 				A049A5A225AFF75A007C77A2 /* Master.swift */,
 				A0C0F3BC25E871CE002BE9BA /* CheckIn.swift */,
+				A02F78BB2601C9E900338948 /* IAP.swift */,
 				A05CD29125EAD96F004E03A3 /* CheckInRow.swift */,
 				A02B64FC25B79D2500686928 /* Detail.swift */,
 				A062543425C18950005A60FC /* Locked.swift */,
@@ -94,6 +100,8 @@
 		A003DF4925C08B15001DFAFE /* ViewModel + Model */ = {
 			isa = PBXGroup;
 			children = (
+				A02F78B62601795900338948 /* Store.swift */,
+				A02F78B92601C12900338948 /* Configuration.storekit */,
 				A003DF4425C0697F001DFAFE /* MotionManager.swift */,
 				A0C0F3B925E86972002BE9BA /* LocationManager.swift */,
 				A049A5B325B01B87007C77A2 /* TabReadingData.swift */,
@@ -250,9 +258,11 @@
 				A005E86F25C93AB800D28BA2 /* TabNoteData.swift in Sources */,
 				A081704625C86BBF00EFC69D /* ReadingNote.swift in Sources */,
 				A049A5A125AFF75A007C77A2 /* ReaderApp.swift in Sources */,
+				A02F78B72601795900338948 /* Store.swift in Sources */,
 				A0C0F3BA25E86972002BE9BA /* LocationManager.swift in Sources */,
 				A049A5B425B01B87007C77A2 /* TabReadingData.swift in Sources */,
 				A005E87825CA609C00D28BA2 /* NoteEntryAndList.swift in Sources */,
+				A02F78BC2601C9E900338948 /* IAP.swift in Sources */,
 				A003DF4525C0697F001DFAFE /* MotionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

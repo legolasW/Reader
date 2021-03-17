@@ -22,6 +22,7 @@ struct CheckIn: View {
         VStack {
             NavigationView {
                 List {
+                    IAP()
                     Picker(selection: $displayMode, label: Text("显示模式")) {
                         Text("精简").tag(0)
                         Text("详细").tag(1)
